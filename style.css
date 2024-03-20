@@ -1,0 +1,40 @@
+p{
+    color: black;
+    padding:0px ;
+    margin: 0px;
+
+}
+.container{
+    display: flex ;
+    justify-content: space-around;
+}
+.container .item{
+    flex-basis: 50%;
+}
+img{
+    max-width: 150px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
+.col1{
+    flex-basis: 20%;
+}
+.col2{
+    flex-basis: 40%;
+}
+.col3{
+    flex-basis: 60%;
+}
+.col4{
+    flex-basis: 80%;
+}
+.col5{
+    flex-basis: 1000%;
+}
+header{
+    box-shadow: 2px 2px 2px 2px #000;
+}
